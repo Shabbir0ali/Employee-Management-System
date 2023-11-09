@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm bg-success navbar-dark mb-5">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a> 
+        </li>
+        <li class="nav-item">
+            <a routerLink="create-employee" routerLinkActive="active" class="nav-link"> Add Employee</a>
+        </li>
+    </ul>
+</nav>
+
+
+<h1 class="text-center ">{{title}}</h1>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="footer bg-success d-flex align-items-center">
+    <div class="container">
+        <span>All Rights Reserved 2023 @Shabbir0ali</span>
+    </div>
+</footer>
