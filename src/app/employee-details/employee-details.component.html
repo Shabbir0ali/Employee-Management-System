@@ -1,0 +1,14 @@
+<div class="text-center">
+  <!-- <h3 class="mb-4 mt-4">View Employee Details</h3> -->
+
+  <div *ngIf="employee">
+    <div class="card p-3 bg-light px-4 m-auto mt-4 mb-4 text-start" style="width:fit-content;">
+      <h5 class="title text-center mt-2 mb-3">
+        View Employee Details
+      </h5>
+      <label for="" class="d-block mb-2"><b>First Name : </b>{{employee?.firstName}}</label>
+      <label for="" class="d-block mb-2"><b>Last Name : </b>{{employee?.lastName}}</label>
+      <label for="" class="d-block mb-2"><b>Email Id : </b>{{employee?.emailId}}</label>
+    </div>
+  </div>
+</div>

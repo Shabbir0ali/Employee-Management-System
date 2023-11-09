@@ -20,3 +20,4 @@
 2023-11-09 11:29:18.874  INFO 16060 --- [main] ngBootEmployeManagementSystemApplication : Started SpringBootEmployeManagementSystemApplication in 5.213 seconds (JVM running for 5.919)
 2023-11-09 11:32:22.306  INFO 16060 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-11-09 11:32:22.306  INFO 16060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-09 11:32:22.308  INFO 16060 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

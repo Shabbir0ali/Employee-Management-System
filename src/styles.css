@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    zoom:1.045;
+}
+
+.footer{
+    margin-top:10px;
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
